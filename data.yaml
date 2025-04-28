@@ -1,0 +1,12 @@
+train: ../train/images
+test: ../test/images
+
+nc: 16
+names: ['ClariasGariepinus', 'LabeobarbuGorguari', 'LabeobarbusAcutirostis', 'LabeobarbusBrevicephalus', 'LabeobarbusCrassibarbis', 'LabeobarbusDainellii', 'LabeobarbusDegenii', 'LabeobarbusIntermedius', 'LabeobarbusMacrophtalmus', 'LabeobarbusMegastoma', 'LabeobarbusNedgia', 'LabeobarbusPlatydorsus', 'LabeobarbusSurkis', 'LabeobarbusTruttiformis', 'NemachilusAbyssinicus', 'OreochromisNiloticus']
+
+roboflow:
+  workspace: zelalem-adugna-terefe
+  project: new-project-fish
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zelalem-adugna-terefe/new-project-fish/dataset/7
